@@ -1,0 +1,56 @@
+.register-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(33, 16, 34);
+}
+
+.form{
+
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 600px;
+  flex-direction: column;
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Anek Bangla', sans-serif;
+
+}
+
+.form input {
+  padding-left: 20px;
+  height: 50px;
+  margin: 10px;
+  font-family: 'Anek Bangla', sans-serif;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+}
+
+.form button {
+  height: 50px;
+  margin: 10px;
+  font-family: 'Anek Bangla', sans-serif;
+  transition: 0.3s all;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(176, 125, 178);
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.form button:hover {
+  height: 60px;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+
+
+
+
